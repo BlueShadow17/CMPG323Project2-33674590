@@ -1,7 +1,9 @@
 # CMPG323Project2-33674590
 # Table of Contents
  -[Introduction](#Introduction)
+ 
  -[Prerequisites](#prerequisites)
+ 
  -[Installation](#installation)
  -[Usage](#usage)
 -[Endpoints](#endpoints)
@@ -10,11 +12,14 @@
     - [GET Orders by Customer ID](#get-orders-by-customer-id)
     - [POST Create Customer](#post-create-customer)
     - [POST Create Order](#post-create-order)
+    
 ## Introduction
 API project for CMPG 323
-This API gets data from a datbase that is hosted on Azure, the link to the API is below. 
+This API gets data from a datbase that is hosted on Azure, the link to the API is below.
+
 https://project-2api.azurewebsites.net/
 The swagger portal is below.
+
 https://project-2api.azurewebsites.net/swagger/index.htmls
 
 ## Prerequisites
