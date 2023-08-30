@@ -13,7 +13,7 @@
 ## Introduction
 API project for CMPG 323
 This API gets data from a datbase that is hosted on Azure, the link to the API is below. 
-https://project-2api.azurewebsites.net
+https://project-2api.azurewebsites.net/
 The swagger portal is below.
 https://project-2api.azurewebsites.net/swagger/index.htmls
 
