@@ -1,9 +1,9 @@
 # CMPG323Project2-33674590
 # Table of Contents
--[Introduction](#Introduction)
--[Prerequisites](#prerequisites)
--[Installation](#installation)
--[Usage](#usage)
+ -[Introduction](#Introduction)
+ -[Prerequisites](#prerequisites)
+ -[Installation](#installation)
+ -[Usage](#usage)
 -[Endpoints](#endpoints)
     - [GET All Customers](#get-all-customers)
     - [GET Customer by ID](#get-customer-by-id)
