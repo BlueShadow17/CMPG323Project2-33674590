@@ -1,10 +1,10 @@
 # CMPG323Project2-33674590
 # Table of Contents
-- [Introduction](#Introduction)
- - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-  - [Endpoints](#endpoints)
+-[Introduction](#Introduction)
+-[Prerequisites](#prerequisites)
+-[Installation](#installation)
+-[Usage](#usage)
+-[Endpoints](#endpoints)
     - [GET All Customers](#get-all-customers)
     - [GET Customer by ID](#get-customer-by-id)
     - [GET Orders by Customer ID](#get-orders-by-customer-id)
@@ -38,6 +38,8 @@ Provide step-by-step instructions for users to install and set up your API. This
 
 ## Configure Database Connection String
 Explain how users should configure their database connection string. They might need to create an `appsettings.json` or set environment variables.
+
+## Usage
 
 ## Endpoints
 1. Customers
