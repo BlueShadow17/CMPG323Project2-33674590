@@ -90,8 +90,10 @@ Explain how users should configure their database connection string. They might 
    -PUT: /api/Orders/{id}
 
    -DELETE: /api/Orders/{id}
+   
+   -GET: /api/Orders/ByCustomer/{customerId}
 
-4. Products
+5. Products
 
    -GET: /api/Products
 
@@ -102,6 +104,8 @@ Explain how users should configure their database connection string. They might 
    -PUT: /api/Products/{id}
 
    -DELETE: /api/Products/{id}
+
+   -GET: /api/Products/ByOrder/{orderId}
 
 ## Refrence List
 The resourses used in the project:
