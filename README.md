@@ -56,30 +56,52 @@ Explain how users should configure their database connection string. They might 
   Using the endpoint you will be able to see each root and path for the methods that was implemented to show how the database data is used for the API. See endpoints below:
 ## Endpoints
 1. Customers
+   
    -GET: /api/Customers
+   
    -POST: /api/Customers
-   -GET: /api/Customers/{id}
-   -PUT: /api/Customers/{id}
-   -DELETE: /api/Customers/{id}
-2. OrderDetails
-   -GET: /api/OrderDetails
-   -POST: /api/OrderDetails
-   -GET: /api/OrderDetails/{id}
-   -PUT: /api/OrderDetails/{id}
-   -DELETE: /api/OrderDetails/{id}
-3. Orders
-   -GET: /api/Orders
-   -POST: /api/Orders
-   -GET: /api/Orders/{id}
-   -PUT: /api/Orders/{id}
-   -DELETE: /api/Orders/{id}
-4. Products
-   -GET: /api/Products
-   -POST: /api/Products
-   -GET: /api/Products/{id}
-   -PUT: /api/Products/{id}
-   -DELETE: /api/Products/{id}
 
+   -GET: /api/Customers/{id}
+
+   -PUT: /api/Customers/{id}
+
+   -DELETE: /api/Customers/{id}
+
+3.OrderDetails
+   
+   -GET: /api/OrderDetails
+   
+   -POST: /api/OrderDetails
+   
+   -GET: /api/OrderDetails/{id}
+   
+   -PUT: /api/OrderDetails/{id}
+   
+   -DELETE: /api/OrderDetails/{id}
+
+5. Orders
+
+   -GET: /api/Orders
+
+   -POST: /api/Orders
+
+   -GET: /api/Orders/{id}
+
+   -PUT: /api/Orders/{id}
+
+   -DELETE: /api/Orders/{id}
+
+7. Products
+
+   -GET: /api/Products
+
+   -POST: /api/Products
+
+   -GET: /api/Products/{id}
+
+   -PUT: /api/Products/{id}
+
+   -DELETE: /api/Products/{id}
 
 ## Refrence List
 
