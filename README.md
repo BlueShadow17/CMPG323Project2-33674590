@@ -67,7 +67,7 @@ Explain how users should configure their database connection string. They might 
 
    -DELETE: /api/Customers/{id}
 
-3.OrderDetails
+2.OrderDetails
    
    -GET: /api/OrderDetails
    
@@ -79,7 +79,7 @@ Explain how users should configure their database connection string. They might 
    
    -DELETE: /api/OrderDetails/{id}
 
-5. Orders
+3. Orders
 
    -GET: /api/Orders
 
@@ -91,7 +91,7 @@ Explain how users should configure their database connection string. They might 
 
    -DELETE: /api/Orders/{id}
 
-7. Products
+4. Products
 
    -GET: /api/Products
 
