@@ -106,15 +106,15 @@ Explain how users should configure their database connection string. They might 
 ## Refrence List
 The resourses used in the project:
 From the word doc provided
-  1. Microsoft. (2023). Tutorial: Create a web API with ASP.NET Core. [Link]([https://docs.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-6.0](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio))
+  1. Microsoft. (2023). Tutorial: Create a web API with ASP.NET Core. [Link](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio)
   2. Microsoft. (2023). Create a web API with ASP.NET Core controllers - Learn. [Link](https://learn.microsoft.com/en-us/training/modules/build-web-api-aspnet-core/)
-  3. Microsoft. (2022). ASP.NET Core web API documentation with Swagger / OpenAPI. [Link]([https://docs.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-6.0](https://learn.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1))
-  4. Microsoft. (2023). Entity Framework Core 3.1 - Getting Started. [Link]([https://docs.microsoft.com/en-us/ef/core/get-started/?tabs=netcore-cli](https://procodeguide.com/programming/entity-framework-core-in-asp-net-core/)https://procodeguide.com/programming/entity-framework-core-in-asp-net-core/)
+  3. Microsoft. (2022). ASP.NET Core web API documentation with Swagger / OpenAPI. [Link](https://learn.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1)
+  4. Microsoft. (2023). Entity Framework Core 3.1 - Getting Started. [Link](https://procodeguide.com/programming/entity-framework-core-in-asp-net-core/)
   5. Microsoft. (2021). "Entity Framework Core Relationships - Joins and Navigation Properties." Microsoft Docs. [Link](https://jd-bots.com/2022/01/24/join-two-entities-in-net-core-using-lambda-and-entity-framework-core/)
   6. Microsoft. (2023). "Publish an ASP.NET Core web API to Azure API Management with Visual Studio." Microsoft Docs. [Link](https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0)
-  7. Automating ASP.NET Core Web API Creation That Communicates with Your Database in 60 Seconds or Less. (2020, August 10). TheJPanda. [link](https://thejpanda.com/2020/08/10/python-automating-asp-net-core-web-api-creation-that-communicates-with-your-database-in-60-seconds-or-less/)
+  7. Automating ASP.NET Core Web API Creation That Communicates with Your Database in 60 Seconds or Less. (2020, August 10). TheJPanda. [Link](https://thejpanda.com/2020/08/10/python-automating-asp-net-core-web-api-creation-that-communicates-with-your-database-in-60-seconds-or-less/)
   8. KunalKushwaha. (2022). "How to Understand Your API Quickly by Swagger" Youtube. [Link](https://www.youtube.com/watch?v=DndKwldJOlw)
-  9. Microsoft. (2023). Get started with Azure. Microsoft Azure. [https://azure.microsoft.com/en-us/get-started/](https://azure.microsoft.com/en-us/get-started/)
-  10. Microsoft (2023). Azure SQL Database documentation. [link](https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql)
+  9. Microsoft. (2023). Get started with Azure. Microsoft Azure. [Link](https://azure.microsoft.com/en-us/get-started/)
+  10. Microsoft (2023). Azure SQL Database documentation. [Link](https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql)
 
 
