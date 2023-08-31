@@ -17,5 +17,6 @@ namespace Project_2.Models
 
         public virtual Customer Customer { get; set; } = null!;
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+        public short Id { get; internal set; }
     }
 }
