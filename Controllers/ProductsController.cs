@@ -129,6 +129,27 @@ namespace Project_2.Controllers
             return NoContent();
         }
 
+        // GET: api/Products/ByOrder/{orderId}
+        [HttpGet("ByOrder/{orderId}")]
+        public async Task<ActionResult<IEnumerable<Product>>> GetProductsByOrder(short orderId)
+        {
+            if (_context.Products == null)
+            {
+                return NotFound();
+            }
+
+            var productsInOrder = await _context.Products
+                .Where(p => p.OrderId == orderId) 
+                .ToListAsync();
+
+            if (productsInOrder.Count == 0)
+            {
+                return NotFound("No products found for the specified order.");
+            }
+
+            return productsInOrder;
+        }
+
         private bool ProductExists(short id)
         {
             return (_context.Products?.Any(e => e.ProductId == id)).GetValueOrDefault();

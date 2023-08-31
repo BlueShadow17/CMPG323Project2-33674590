@@ -54,7 +54,7 @@ namespace Project_2.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutOrder(short id, Order order)
         {
-            if (id != order.OrderId)
+            if (id != order.Id)
             {
                 return BadRequest();
             }
@@ -90,23 +90,9 @@ namespace Project_2.Controllers
               return Problem("Entity set 'DB33674590Context.Orders'  is null.");
           }
             _context.Orders.Add(order);
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateException)
-            {
-                if (OrderExists(order.OrderId))
-                {
-                    return Conflict();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetOrder", new { id = order.OrderId }, order);
+            return CreatedAtAction("GetOrder", new { id = order.Id }, order);
         }
 
         // DELETE: api/Orders/5
@@ -129,9 +115,30 @@ namespace Project_2.Controllers
             return NoContent();
         }
 
+        // GET: api/Orders/ByCustomer/{customerId}
+        [HttpGet("ByCustomer/{customerId}")]
+        public async Task<ActionResult<IEnumerable<Order>>> GetOrdersByCustomer(short customerId)
+        {
+            if (_context.Orders == null)
+            {
+                return NotFound();
+            }
+
+            var ordersForCustomer = await _context.Orders
+                .Where(o => o.CustomerId == customerId) 
+                .ToListAsync();
+
+            if (ordersForCustomer.Count == 0)
+            {
+                return NotFound("No orders found for the specified customer.");
+            }
+
+            return ordersForCustomer;
+        }
+
         private bool OrderExists(short id)
         {
-            return (_context.Orders?.Any(e => e.OrderId == id)).GetValueOrDefault();
+            return (_context.Orders?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }

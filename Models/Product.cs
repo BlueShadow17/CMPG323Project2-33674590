@@ -16,5 +16,6 @@ namespace Project_2.Models
         public int? UnitsInStock { get; set; }
 
         public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+        public short OrderId { get; internal set; }
     }
 }
