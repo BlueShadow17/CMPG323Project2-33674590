@@ -27,7 +27,11 @@ This link will not show a page because there is no rooting for it to go to. Use 
 The swagger portal is below:
 
 [link](https://project-2api.azurewebsites.net/swagger/index.htmls)
+
+
 Click below for the Azure profile link:
+
+
 [Link](https://portal.azure.com/#@nwuac.onmicrosoft.com/resource/subscriptions/7a703948-d81e-4731-917f-de4fcf2080a6/resourceGroups/rgP2App/overview)
 
 ## Prerequisites
